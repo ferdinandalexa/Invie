@@ -1,8 +1,19 @@
-.titulo {
-    font-size: 70px;
+/* 
+
+
+
+*/
+
+body {
+    font-family: 'Allerta', sans-serif;
 }
 
-.menu{
+.titulo {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
     font-size: 24px;
     color: white;
 }
@@ -11,17 +22,20 @@
     font-size: 24px;
 }
 
-.guitarras{
+.guitarras {
     color: #1F313C;
 }
-.guitarras h2{
+
+.guitarras h2 {
     font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
-.title-b{
+
+.title-b {
     font-size: 50px;
 }
 
-.portada{
+.portada {
     background-image: url('../images/background.png');
     color: white;
 }

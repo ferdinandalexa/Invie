@@ -8,12 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-top: 70px;
     margin-bottom: 0px;
-    
 }
 
-.logotipo{
+.logotipo {
     display: inline-block;
 }
+
 .menu {
     font-size: 24px;
     color: white;
@@ -31,7 +31,7 @@ body {
     padding: 20px;
 }
 
-.portada button{
+.portada button {
     margin-bottom: 70px;
 }
 
@@ -54,8 +54,7 @@ body {
     margin-bottom: 20px;
 }
 
-.header, .guitarras, .portada
-{
+.contenedor{
     width: 800px;
     margin: auto;
 }

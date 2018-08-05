@@ -1,42 +1,27 @@
-/* selector universal */
-
-* {
-    border: 1px solid red;
-    margin: 10px;
+.titulo {
+    font-size: 70px;
 }
 
-/* selector de etiqueta */
-
-header {
-    background: blue;
+.menu{
+    font-size: 24px;
+    color: white;
 }
 
-section {
-    background: purple;
+.title-a {
+    font-size: 24px;
 }
 
-/* selector descendente */
-article h3 {
-    color: green;
+.guitarras{
+    color: #1F313C;
 }
-
-/* selectores de clase */
-.title-a{
-    background: yellow;
+.guitarras h2{
+    font-size: 35px;
 }
 .title-b{
-    background: salmon;
+    font-size: 50px;
 }
 
-/* selector de id */
-#header{
-border: 3px solid black;
-}
-
-#portada{
-    border: 3px solid orange;
-}
-
-#guitarras{
-    border: 3px solid brown;
+.portada{
+    background-image: url('../images/background.png');
+    color: white;
 }

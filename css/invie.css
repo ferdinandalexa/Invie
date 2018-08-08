@@ -3,6 +3,16 @@ body {
     margin: 0;
 }
 
+button{
+    border-radius: 5px;
+    border: none;
+    background:linear-gradient(to right,#ff7250,#fe344e);    color: white;
+    padding: 7px;
+}
+
+header {
+    position: relative;
+}
 .titulo {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -14,9 +24,6 @@ body {
     display: inline-block;
 }
 
-header {
-    position: relative;
-}
 
 .menu {
     font-size: 24px;
@@ -63,7 +70,8 @@ header {
 .guitarra {
     margin: 10px;
     padding: 10px;
-    border: 1px solid #1F313C
+    border: 1px solid #1F313C;
+    border-radius: 8px;
 }
 
 .guitarra ol {

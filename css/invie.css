@@ -3,10 +3,11 @@ body {
     margin: 0;
 }
 
-button{
+button {
     border-radius: 5px;
     border: none;
-    background:linear-gradient(to right,#ff7250,#fe344e);    color: white;
+    background: linear-gradient(to right, #ff7250, #fe344e);
+    color: white;
     padding: 7px;
 }
 
@@ -14,9 +15,10 @@ header {
     position: relative;
 }
 
-footer{
+footer {
     background: #1F313C;
 }
+
 .titulo {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +29,6 @@ footer{
 .logotipo {
     display: inline-block;
 }
-
 
 .menu {
     font-size: 24px;
@@ -82,18 +83,23 @@ footer{
     padding: 0;
 }
 
-.contacto img{
+.contacto img {
     display: block;
 }
 
-.contacto strong{
+.contacto strong {
     display: block;
 }
 
-.contacto a{
+.contacto a {
     color: white;
     text-decoration: none;
 }
+
+.formulario label {
+    color: white;
+}
+
 .derecha {
     float: right;
     position: relative;

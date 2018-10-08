@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-button {
+.boton{
     border-radius: 5px;
     border: none;
     background: linear-gradient(to right, #ff7250, #fe344e);
@@ -11,9 +11,9 @@ button {
     padding: 7px;
 }
 
-    header {
+header {
         position: relative;
-    }
+}
 
 .footer {
     background: #1F313C;
@@ -83,6 +83,13 @@ button {
     padding: 0;
 }
 
+.contacto{
+    display: flex;
+    width: 300px;   
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 .contacto img {
     display: block;
 }
@@ -94,6 +101,7 @@ button {
 .contacto a {
     color: white;
     text-decoration: none;
+    margin: 10px 10px 10px 0px;
 }
 
 .derecha {
@@ -119,4 +127,42 @@ button {
 
 .contenedor-guitarra-b {
     margin-left: 370px;
+}
+
+.footer .contenedor{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario{
+    display: flex;
+    width: 450px;
+    color: white;   
+    padding: 50px 10px; 
+}
+
+.columna-1{
+    margin-right: 15px;
+}
+.columna-2{
+align-items: flex-start;
+}
+
+
+.columna-1, .columna-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.intereses label{
+    font-size: 13px;
+}
+
+.formulario label, .sexo, .intereses{
+    margin-bottom: 10px;
+}
+
+.sexo{
+    margin-top: 10px;
 }

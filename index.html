@@ -1,4 +1,4 @@
-Termas San Joaquín en Ramos Arizpe, Coahuila<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8"/>
@@ -26,7 +26,7 @@ Termas San Joaquín en Ramos Arizpe, Coahuila<!DOCTYPE html>
       </nav>
     </header>
     <section id="portada" class="portada"><!-- portada -->
-      <form class="contenedor">
+      <div class="contenedor">
         <h1 class="titulo">Guitarras inviesibles</h1><!-- titulo  -->
         <h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3><!-- resumen  -->
         <button>Conoce más</button><!-- boton -->
@@ -64,40 +64,40 @@ Termas San Joaquín en Ramos Arizpe, Coahuila<!DOCTYPE html>
           <a href="tel:+813024456678"><strong>Telefono</strong> <span>3024456678</span></a> <!-- tel -->
           <a href="mailto:contacto@invie.com"><strong>Email</strong> <span>contacto@invie.com</span></a> <!-- email -->
         </div>
+        <form class="formulario">
+          <label for="nombre">Nombre</label>
+          <input type="text" required id="nombre" name="nombre"/>
+          <label for="email">Email</label>
+          <input type="email" required id="email" name="email"/>
+          <div class="sexo">
+            <label for="mujer"> 
+              <input type="radio" id="mujer" name="sexo" value="mujer"/> Mujer
+            </label>
+            <label for = "hombre">
+              <input type="radio" id ="hombre" name="sexo" value="hombre"/> Hombre
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion"/>Cotizacion
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses" value="reclamos"/>Reclamos
+            </label>
+            <label for="comentario">
+              <input type="checkbox" id="comentario" name="intereses" value="comentario"/>Comentario
+            </label>
+            <label for="otros">
+              <input type="checkbox" id="otros" name="intereses" value="otros"/>Otros
+            </label>
+          </div>
+          <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar/">
+          </div>
+        </form>
       </div>
-      <form class="formulario">
-        <label for="nombre">Nombre</label>
-        <input type="text" required id="nombre" name="nombre"/>
-        <label for="email">Email</label>
-        <input type="email" required id="email" name="email"/>
-        <div class="sexo">
-          <label for="mujer"> 
-            <input type="radio" id="mujer" name="sexo" value="mujer"/> Mujer
-          </label>
-          <label for = "hombre">
-            <input type="radio" id ="hombre" name="sexo" value="hombre"/> Hombre
-          </label>
-        </div>
-        <div class="intereses">
-          <label for="cotizacion">
-            <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion"/>Cotizacion
-          </label>
-          <label for="reclamos">
-            <input type="checkbox" id="reclamos" name="intereses" value="reclamos"/>Reclamos
-          </label>
-          <label for="comentario">
-            <input type="checkbox" id="comentario" name="intereses" value="comentario"/>Comentario
-          </label>
-          <label for="otros">
-            <input type="checkbox" id="otros" name="intereses" value="otros"/>Otros
-          </label>
-        </div>
-        <div>
-          <label for="comentarios">Comentarios</label>
-          <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
-          <input type="submit" value="Enviar/">
-        </div>
-      </form>
     </footer>
   </body>
 </html>

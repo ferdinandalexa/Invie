@@ -11,11 +11,11 @@ button {
     padding: 7px;
 }
 
-header {
-    position: relative;
-}
+    header {
+        position: relative;
+    }
 
-footer {
+.footer {
     background: #1F313C;
 }
 
@@ -46,7 +46,7 @@ footer {
 .portada {
     background-image: url('../images/background.png');
     color: white;
-    padding: 20px;
+    padding: 20px;  
 }
 
 .portada button {
@@ -96,10 +96,6 @@ footer {
     text-decoration: none;
 }
 
-.formulario label {
-    color: white;
-}
-
 .derecha {
     float: right;
     position: relative;
@@ -123,5 +119,4 @@ footer {
 
 .contenedor-guitarra-b {
     margin-left: 370px;
-    padding-left: 0;
 }

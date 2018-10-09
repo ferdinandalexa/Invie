@@ -47,6 +47,10 @@ input, textarea{
     bottom: 75px;
 }
 
+.header.fondo .contenedor{
+    padding: 20px 0;
+}
+
 .boton {
     border-radius: 12px;
     border: none;

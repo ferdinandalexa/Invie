@@ -35,13 +35,15 @@ input, textarea {
 }
 
 .contenedor {
-    width: 800px;
+    max-width: 800px;
     margin: auto;
 }
 
+
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .titulo {
@@ -97,11 +99,6 @@ input, textarea {
     text-decoration: none;
 }
 
-.footer {
-    background: #1F313C;
-    padding: 50px 10px
-}
-
 .guitar-and-features{
     margin: -40px 30px;
 }
@@ -135,6 +132,7 @@ input, textarea {
     border-radius: 8px;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .guitarra:nth-of-type(even){
@@ -143,6 +141,7 @@ input, textarea {
 
 
 .guitarrista {
+    max-width: 350px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -156,9 +155,20 @@ input, textarea {
 
 .contacto {
     display: flex;
-    width: 300px;
+    max-width: 300px;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.footer {
+    background: #1F313C;
+    padding: 50px 10px
+}
+
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contacto img {
@@ -175,13 +185,9 @@ input, textarea {
     margin: 10px 10px 10px 0px;
 }
 
-.footer .contenedor {
-    display: flex;
-    justify-content: space-between;
-}
-
 .formulario {
     display: flex;
+    flex-wrap: wrap;
     width: 450px;
     color: white;
 }

@@ -226,17 +226,18 @@ input, textarea {
 
 table {
     width: 100%;
+    margin: auto;
 }
 
 th {
     background: #273b47;
     color: white;
-    padding: 10px 20px;
+    padding: 1em 2em;
     text-align: left;
 }
 
 td {
-    padding: 20px;
+    padding: 1.5em;
 }
 
 table, td, th {
@@ -245,7 +246,8 @@ table, td, th {
 }
 
 .tabla {
-    margin: 50px 0px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 @media screen and (max-width: 1024px) {}
@@ -311,6 +313,9 @@ table, td, th {
     .header {
         justify-content: center;
     }
+    .tabla {
+        font-size: 0.7em;
+    }
     .formulario .intereses {
         transform: scale(1.1);
         margin: 0 1em 1em;
@@ -328,7 +333,6 @@ table, td, th {
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
-
     .portada .titulo {
         font-size: 1.8em;
     }

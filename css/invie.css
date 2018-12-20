@@ -10,18 +10,17 @@ input, textarea {
 .portada {
     color: white;
     padding: 20px;
-    height: 500px;
+    height: auto;
 }
 
 .portada div.contenedor {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
 }
 
-.portada button {
-    margin-bottom: 70px;
+.portada .boton {
+    margin-bottom: 80px;
 }
 
 .header.fondo .contenedor {

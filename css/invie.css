@@ -336,6 +336,17 @@ table, td, th {
 }
 
 @media screen and (max-width: 360px) {
+    .header, .menu li, .logotipo {
+        display: block;
+        margin: auto;
+    }
+
+    .menu li{
+        text-align: center;
+        margin: 5px;
+    }
+
+    
     .portada .titulo {
         font-size: 1.8em;
     }

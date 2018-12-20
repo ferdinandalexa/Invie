@@ -111,7 +111,7 @@ input, textarea {
     height: 200px;
     border: 1px solid #1F313C;
     border-radius: 8px;
-    position: relative;    
+    position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -121,13 +121,13 @@ input, textarea {
     flex-direction: row-reverse;
 }
 
-.guitar-and-features{
+.guitar-and-features {
     padding: 0 10px;
 }
 
 .guitar-and-features .guitar-name {
     font-size: 3em;
-    margin:auto;
+    margin: auto;
 }
 
 .guitar-and-features .features {
@@ -265,44 +265,31 @@ table, td, th {
     .portada .boton {
         margin-bottom: 1em;
     }
-    .portada .subtitulo,
-    .boton, 
-    .menu {
+    .portada .subtitulo, .boton, .menu {
         font-size: 1.2em;
     }
-
-    .guitarra,
-    .guitarra:nth-of-type(even){
+    .guitarra, .guitarra:nth-of-type(even) {
         height: auto;
         flex-direction: column;
         justify-content: center;
     }
-
-    .guitarrista{
+    .guitarrista {
         position: static;
     }
-
-    .guitar-section,
-    .guitar-and-features .features,
-    .guitar-and-features .guitar-name{
+    .guitar-section, .guitar-and-features .features, .guitar-and-features .guitar-name {
         text-align: center;
         list-style: none;
     }
 }
 
 @media screen and (max-width: 640px) {
-
-    .footer .contenedor{
+    .footer .contenedor {
         text-align: center;
     }
-
     .columna-1 .sexo {
         display: flex;
     }
-    .footer .contenedor,
-    .columna-1 .sexo,
-    .formulario,
-    .contacto {
+    .footer .contenedor, .columna-1 .sexo, .formulario, .contacto {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -316,20 +303,16 @@ table, td, th {
         align-items: center;
         text-align: center;
     }
-
     .portada .titulo {
         font-size: 2.5em;
     }
-
-    .portada .subtitulo,
-    .boton {
+    .portada .subtitulo, .boton {
         font-size: 1em;
     }
-
-    .header{
+    .header {
         justify-content: center;
     }
-    .formulario .intereses{
+    .formulario .intereses {
         transform: scale(1.1);
         margin: 0 1em 1em;
     }
@@ -340,41 +323,35 @@ table, td, th {
         display: block;
         margin: auto;
     }
-
-    .menu li{
+    .menu li {
         text-align: center;
-        margin: 5px;
+        padding: 5px 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
     }
 
-    
     .portada .titulo {
         font-size: 1.8em;
     }
-    .portada .menu{
+    .portada .menu {
         font-size: 1em;
     }
-    
-    .portada .subtitulo,
-    .boton {
+    .portada .subtitulo, .boton {
         font-size: 0.8em;
     }
-    
-    .guitarras .guitar-section{
+    .guitarras .guitar-section {
         font-size: 1.5em;
     }
-
     .guitarrista {
         max-height: 280px;
     }
-    
     .guitarra:nth-of-type(even) .guitarrista {
         max-height: 210px;
     }
-
     .guitar-and-features {
         margin-top: 10px;
     }
-    .guitar-and-features .guitar-name{
+    .guitar-and-features .guitar-name {
         font-size: 2em;
     }
 }

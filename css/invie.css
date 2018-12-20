@@ -89,6 +89,7 @@ input, textarea {
 }
 
 .menu a {
+    display: block;
     color: white;
     text-decoration: none;
 }

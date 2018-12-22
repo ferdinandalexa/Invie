@@ -1,3 +1,42 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?cu6z78');
+    src: url('../fonts/icomoon.eot?cu6z78#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?cu6z78') format('truetype'), url('../fonts/icomoon.woff?cu6z78') format('woff'), url('../fonts/icomoon.svg?cu6z78#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #375465;
+    position: fixed;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+}
+
+.icon-menu:before {
+    content: "\e900";
+    color: white;
+}
+
 body {
     font-family: 'Allerta', sans-serif;
     margin: 0;
@@ -147,6 +186,7 @@ input, textarea {
 
 .guitarrista {
     max-height: 350px;
+    max-width: 100%;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -156,6 +196,22 @@ input, textarea {
     left: 2.2em;
     bottom: -50px;
     max-height: 280px;
+}
+
+.video-container {
+    position: relative;
+    padding-top: 49.4%;
+}
+
+.html-video {
+    width: 98%;
+    height: 100%;
+    margin: 0 1%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
 }
 
 .contacto {
@@ -251,8 +307,6 @@ table, td, th {
     margin: 50px auto;
 }
 
-@media screen and (max-width: 1024px) {}
-
 @media screen and (max-width: 768px) {
     .portada {
         height: auto;
@@ -301,6 +355,24 @@ table, td, th {
 }
 
 @media screen and (max-width: 480px) {
+    .icon-menu {
+        display: initial;
+    }
+    .header, .menu li, .logotipo {
+        display: block;
+        margin: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu li {
+        text-align: center;
+        padding: 5px 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
     .portada div.contenedor {
         align-items: center;
         text-align: center;
@@ -324,16 +396,6 @@ table, td, th {
 }
 
 @media screen and (max-width: 360px) {
-    .header, .menu li, .logotipo {
-        display: block;
-        margin: auto;
-    }
-    .menu li {
-        text-align: center;
-        padding: 5px 0;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-    }
     .portada .titulo {
         font-size: 1.8em;
     }
@@ -345,12 +407,6 @@ table, td, th {
     }
     .guitarras .guitar-section {
         font-size: 1.5em;
-    }
-    .guitarrista {
-        max-height: 280px;
-    }
-    .guitarra:nth-of-type(even) .guitarrista {
-        max-height: 210px;
     }
     .guitar-and-features {
         margin-top: 10px;

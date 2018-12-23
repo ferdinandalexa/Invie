@@ -24,12 +24,14 @@
     display: none;
     width: 40px;
     height: 40px;
-    background-color: #375465;
-    position: fixed;
-    text-align: center;
-    line-height: 40px;
     border-radius: 50%;
+    background-color: #375465;
     margin: 10px 0 0 10px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
 }
 
 .icon-menu:before {
@@ -114,6 +116,7 @@ input, textarea {
 }
 
 .menu ul {
+    width: 100%;
     padding: 0;
     list-style: none;
 }
@@ -131,6 +134,10 @@ input, textarea {
     display: block;
     color: white;
     text-decoration: none;
+}
+
+.menu a:hover, .menu a:active {
+    background-color: rgba(0, 0, 0, 0.459);
 }
 
 .boton {
@@ -362,17 +369,36 @@ table, td, th {
         display: block;
         margin: auto;
     }
-
     .menu {
-        display: none;
+        /* display: none; */
+        position: fixed;
+        width: 100vw;
+        bottom: 0;
+        background-color: rgba(57, 87, 104, 0.9);
+        top: 0;
+        left: -500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        transition: 0.6s ease-in-out;
+    }
+
+    .menu.is-active {
+        left: 0;
     }
 
     .menu li {
         text-align: center;
         padding: 5px 0;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
     }
+    .menu a {
+        font-size: 2em;
+        padding: 1em 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.705);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+    }
+
     .portada div.contenedor {
         align-items: center;
         text-align: center;

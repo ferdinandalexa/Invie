@@ -5,9 +5,11 @@ const $buttonBurguer = document.getElementById('buttonBurger');
 const $menuBurger = document.querySelector('.menu');
 // console.log($menuBurger);
 
-let movile = window.matchMedia(`screen and (max-width: 480px)`);
 
+let movile = window.matchMedia(`screen and (max-width: 480px)`);
+validate(movile);
 movile.addListener(validate);
+
 
 function hiddenMenu()
 {
@@ -30,9 +32,9 @@ function menuInterection()
         showMenu();
     }
 }
-function validate()
+function validate(event)
 {
-    if(movile.matches)
+    if(event.matches)
     {
         console.log(movile.matches);
         $buttonBurguer.addEventListener('click', menuInterection);

@@ -40,7 +40,7 @@
 }
 
 body {
-    font-family: 'Allerta', sans-serif;
+    font-family: 'Allerta', system-ui;
     margin: 0;
 }
 
@@ -88,7 +88,7 @@ input, textarea {
 
 .titulo {
     font-size: 4.5em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', system-ui;
     margin: 100px 0 0;
 }
 

@@ -1,10 +1,6 @@
-const $body = document.body
-// console.log($body);
+const $body = document.body;
 const $buttonBurguer = document.getElementById('buttonBurger');
-// console.log($buttonBurguer);
 const $menuBurger = document.querySelector('.menu');
-// console.log($menuBurger);
-
 
 let movile = window.matchMedia(`screen and (max-width: 480px)`);
 validate(movile);

@@ -69,7 +69,7 @@ input, textarea {
 }
 
 .fondo {
-    background-image: url('../images/background.png');
+    background-image: url('../images-compress/background.png');
     background-size: cover;
 }
 
